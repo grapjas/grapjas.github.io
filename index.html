@@ -1,49 +1,23 @@
-
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Welkom op mijn website! </title>
+	<title> Welkom op mijn website! </title>
+	<meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <h1 id="welkom">  </h1>
     <p> Weetje: </p>
-    <p id="weetje"> </p>
-    <p> Python programma's: </p>
-    <ul>
-    <li> <a href="https://repl.it/repls/DarkGleamingDrawings#main.py">Rekenen</a> </li>
-    <li> <a href="https://repl.it/repls/SnoopyDeliciousPattern#main.py" id="onbeschaafd">Blad steen schaar</a> <label for="myCheck">onbeschaafd: </label><input type="checkbox" id="myCheck" onclick="onbeschaafd()"></li>
-    <li> <a href="https://repl.it/repls/VerifiablePowerfulBytes#main.py">Keukentaal naar SI eenheden</a></li>
-    </ul
-    <br>
-    <p> Klik op een figuur om een oppervlakte te berekenen </p>
-    <form id="hello" style="display:none;">
-      <div id="getal1">
-        <label id="lengte1_tekst"></label> <br>
-        <input type="number" id="lengte1" style="width: 100px"> <br>
-      </div>
-      <div id="getal2" style="display:none;">
-        <label id="lengte2_tekst"></label> <br>
-        <input type="number" id="lengte2" style="width: 100px" > <br>
-      </div> <br>
-      <button type="button" onclick="toonOppervlakte()"  style="width: 120px">BEREKEN </button>
-    </form>
-    <div id="ans" style="display:none;">oppervlakte: <label id="oppervlakte"></label></div>
-    
-    
-    <br>
-    <img src="assets/figuren.jpeg" usemap="#image-map">
-    <map name="image-map">
-      <area target="" title="vierkant"  onclick="vierkant()" coords="283,125,207,46" shape="rect">
-      <area target="" title="driehoek" onclick="driehoek()" coords="78,48,155,122,29,98" shape="poly">
-      <area target="" title="rechthoek" onclick="rechthoek()" coords="335,48,437,97" shape="rect">
-      <area target="" title="ruit" onclick="ruit()" coords="538,48,601,98,539,147,477,98" shape="poly">
-      <area target="" title="cirkel" onclick="cirkel()" coords="94,214,62" shape="circle">
-      <area target="" title="parallellogram" onclick="parallellogram()" coords="182,277,259,277,309,176,234,176" shape="poly">
-      <area target="" title="trapezium" onclick="trapezium()" coords="387,176,411,176,462,251,360,251" shape="poly">
-      <area target="" title="vlieger" onclick="vlieger()" coords="488,200,538,174,589,200,540,277,516,243" shape="poly">
-    </map>
+	<p id="weetje"> </p>
+	<br>
+	<nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="oppervlakte.html">Bereken oppervlaktes</a></li>
+		  <li><a href="caesarcijfer.html">Caesarcijfer</a></li>
+		</ul>
+	  </nav>
+
     <!--
       <audio controls>
         <source src="assets/brabanconne.mp3" type="audio/mpeg">
